@@ -34,7 +34,7 @@ The workflow for the assignment will be as follows:
 
 0. What you are viewing right now is my github repo for the problem set: it
 lives on github at
-[http://RUC-cs562/streaming-hw](http://RUC-cs562/streaming-hw).
+`https://RUC-cs562/streaming-hw`.
 
 1. **Clone** a copy of this repo either from the command line or from github's
 GUI interface into a local repository on your machine (your local repository
@@ -56,8 +56,8 @@ gitgub. This step is important because I will check your work (the three
 versions of `set2.py`) from your remote repo on github. Your remote repo must be
 synchronized with your local master before you go to step 5. 
 
-5. Issue a **pull request** on [my repo](http://RUC-cs562/streaming-hw) in which
-you should provide the github address of *your* remote repo.
+5. Issue a **pull request** on my repo (`https://RUC-cs562/streaming-hw`) in
+which you should provide the github address of *your* remote repo.
 
 If any of this is not completely clear, we will go over it in class on
 Thursday - however, you are expected to read/watch/practice the git/github
