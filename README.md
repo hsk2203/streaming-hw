@@ -120,9 +120,13 @@ code for part 3` before merging it with the `master` repo.
 
 ## Submission
 
-You do not submit anything through Sakai - just initiate a **new pull request**
+As mentioned above, initiate a **new pull request**
 with an appropriate message describing the status of your master repos. I will
 have access to your repos so will be able to check them individually.
+
+Additionally, please use the Assignments submission link for **set2** on Sakai
+to submit the completed file `set3.py`.
+
 
 
 
