@@ -19,30 +19,49 @@ of you that have not used git/github before: the class project to be announced
 on Thursday, will be exclusively done via github too! If you haven't done so
 already, please take the time to go through the [git lesson at Software
 Carpentry](http://swcarpentry.github.io/git-novice/), or choose from literally
-tens of tutorial sites like [this
-one](https://guides.github.com/activities/hello-world/). You should become
+tens of tutorial sites,
+e.g. [here](https://guides.github.com/activities/hello-world/).
+
+The first thing to do is to **create a github account for yourself**: this is
+the remote location where you will store (or *push*, in git parlance) your local
+repositories.  You should become
 comfortable with forking/cloning a repository (or, *repo*), creating a branch,
 creating a commit, merging a branch, and creating a pull request. Don't worry if
 you make mistakes in the beginning - the process will teach you a lot about how
-useful versioning is once you become comfortable with git!
+useful versioning is once you become familiar with git! 
 
 The workflow for the assignment will be as follows:
 
-1. **Fork** or **clone** a copy of this repo (the `original` problem set repo),
-either from the command line or from github's GUI interface into a local
-repository (your local repository will be referred to as your `master` repo in
-the rest of the assignment description).
+0. What you are viewing right now is my github repo for the problem set: it
+lives on github at
+[http://RUC-cs562/streaming-hw](http://RUC-cs562/streaming-hw).
 
-2. All your code will **only** go into the file `set2.py` - do not modify the
-other files! A skeleton file has been set up in the repo for you to start
-editing and adding code. You will need to have additional fucntions and
-scripting to complete various parts of the assignment.
+1. **Clone** a copy of this repo either from the command line or from github's
+GUI interface into a local repository on your machine (your local repository
+will be referred to as *your* `master` repo in the rest of the assignment
+description).
 
-3. The assignment has 3 parts. Each part should be implemented in a branch of
-`master`, completed in that branch, committed in that branch, and then finally
-merged back into the `master` repo. This means that I should eventually be able
-to check all three versions of your `set2.py` file (assuming you have completed
-them)!
+2. All your code changes will **only** go into the file `set2.py` - do not
+modify or create other files! A skeleton `setup.py` file has been created in the
+repo for you to start editing and adding code. You will need to have additional
+fucntions and scripting in there to complete various parts of the assignment.
+
+3. The assignment has 3 parts. Each part should be implemented in a **branch**
+of `master`, completed in that branch, committed in that branch, and then
+finally merged back into the `master` repo.
+
+4. Keep pushing your local `master` repo to a remote `origin` repo - all the
+tutorials will have directions on how to initially create a remote repo on
+gitgub. This step is important because I will check your work (the three
+versions of `set2.py`) from your remote repo on github. Your remote repo must be
+synchronized with your local master before you go to step 5. 
+
+5. Issue a **pull request** on [my repo](http://RUC-cs562/streaming-hw) in which
+you should provide the github address of *your* remote repo.
+
+If any of this is not completely clear, we will go over it in class on
+Thursday - however, you are expected to read/watch/practice the git/github
+lessons *before* coming to class.
 
 ## Part 1
 
