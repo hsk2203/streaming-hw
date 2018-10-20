@@ -7,7 +7,7 @@ def data_stream():
         for line in f:
             for w in word_tokenize(line):
                 if w.isalnum():
-                    yield w, pos
+                    yield w
    
 def bloom_filter_set():
     """Stream the data in 'Proper.txt' """
